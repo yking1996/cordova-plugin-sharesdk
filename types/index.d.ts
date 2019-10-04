@@ -12,6 +12,6 @@
 //     share: Function;
 // }
 
-declare var ShareSDK: {
+declare var ShareSDKPlugin: {
     share: (successCallback, errorCallback, params) => void;
 }

@@ -1,4 +1,4 @@
-var pluginName = 'ShareSDK';
+var pluginName = 'ShareSDKPlugin';
 var ShareSDK = {};
 ShareSDK.logout = function(successCallback, errorCallback, params) {
   cordova.exec(successCallback, errorCallback, pluginName, 'logout', [params]);

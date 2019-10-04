@@ -24,7 +24,7 @@ import cn.sharesdk.tencent.qq.QQ;
 import cn.sharesdk.wechat.friends.Wechat;
 
 public class ShareSDKPlugin extends CordovaPlugin {
-    public static final String TAG = "ShareSDK";
+    public static final String TAG = "ShareSDKPlugin";
 
     private Activity activity;
 
