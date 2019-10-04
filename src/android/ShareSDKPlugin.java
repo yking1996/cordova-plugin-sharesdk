@@ -1,4 +1,4 @@
-package com.ashoka.cordova.ShareSDK;
+package com.ashoka.cordova.ShareSDKPlugin;
 
 import java.util.HashMap;
 import java.util.TimeZone;
