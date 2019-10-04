@@ -1,5 +1,6 @@
 package com.ashoka.cordova.ShareSDK;
 
+import java.util.HashMap;
 import java.util.TimeZone;
 
 import org.apache.cordova.CordovaWebView;
@@ -10,9 +11,19 @@ import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
+import android.app.Activity;
 import android.provider.Settings;
 
-public class ShareSDK extends CordovaPlugin {
+import cn.sharesdk.framework.Platform;
+import cn.sharesdk.framework.PlatformActionListener;
+import cn.sharesdk.framework.PlatformDb;
+import cn.sharesdk.framework.ShareSDK;
+import cn.sharesdk.onekeyshare.OnekeyShare;
+import cn.sharesdk.sina.weibo.SinaWeibo;
+import cn.sharesdk.tencent.qq.QQ;
+import cn.sharesdk.wechat.friends.Wechat;
+
+public class ShareSDKPlugin extends CordovaPlugin {
     public static final String TAG = "ShareSDK";
 
     private Activity activity;
@@ -20,7 +31,7 @@ public class ShareSDK extends CordovaPlugin {
     /**
      * Constructor.
      */
-    public ShareSDK() {
+    public ShareSDKPlugin() {
     }
 
     /**

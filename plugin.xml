@@ -35,11 +35,11 @@
     <platform name="android">
         <config-file target="res/xml/config.xml" parent="/*">
             <feature name="ShareSDK">
-                <param name="android-package" value="com.ashoka.cordova.ShareSDK"/>
+                <param name="android-package" value="com.ashoka.cordova.ShareSDKPlugin"/>
             </feature>
         </config-file>
 
-        <source-file src="src/android/ShareSDK.java" target-dir="src/com/ashoka/cordova/ShareSDK" />
+        <source-file src="src/android/ShareSDKPlugin.java" target-dir="src/com/ashoka/cordova/ShareSDKPlugin" />
     </platform>
 
     <!-- ios -->
