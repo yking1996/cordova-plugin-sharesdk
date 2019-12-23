@@ -7,7 +7,7 @@ description: Cordova ShareSDK Plugin
 
 ## Installation
 
-    cordova plugin add https://github.com/falcon11/cordova-plugin-sharesdk.git
+    cordova plugin add https://github.com/yking1996/cordova-plugin-sharesdk.git
 
 ## Usage
 ```js
